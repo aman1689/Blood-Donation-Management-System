@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 package com.blooddonation;
 
 import org.springframework.boot.SpringApplication;
@@ -27,13 +26,3 @@ public class Main {
         };
     }
 }
-=======
-package com.blooddonation;
-
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
-import org.springframework.web.servlet.config.annotation.CorsRegistry;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
-
->>>>>>> 863aa09fd6962b6b3916086163886ac33bcae165

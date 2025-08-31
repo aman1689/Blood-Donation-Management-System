@@ -1,4 +1,3 @@
-// <<<<<<< HEAD
 package com.blooddonation.controller;
 
 import com.blooddonation.models.Donor;
@@ -35,16 +34,3 @@ public class DonorController {
         return donorRepository.findByStateAndCityAndIsEligible(state, city, true);
     }
 }
-//=====
-package com.blooddonation.controller;
-
-import com.blooddonation.models.Donor;
-import com.blooddonation.repository.DonorRepository;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
-import java.time.LocalDate;
-import java.util.List;
-
-// >>>>>>> 863aa09fd6962b6b3916086163886ac33bcae165
